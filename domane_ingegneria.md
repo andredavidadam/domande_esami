@@ -289,14 +289,30 @@ La sua durata è di 15 minuti e si rimane in piedi per evitare che si prolunghi 
 41. come vengono espressi i requisiti funzionali?
 * I requisiti funzionali sono espressi mediante le user stories
 
-42. come viene espressa una user story
+42. come viene espressa una user story?
 * Le user stories sono espresse mediante un Template:
 In qualità di <ruolo utente>,
 voglio <obiettivo>
 [in modo tale da <motivo>]
 
+43. come viene e quando viene specificato il dettaglio di una user story?
+* //PENDENTE...
 
+44. se una user story viene specificata nel product backlog o nello sprint backlog?
+* Le user story sono inserite nel product backlog. Nello sprint backlog sono inserite le user
+story per uno sprint.
 
+45. perchè è importante un obiettivo in uno sprint?
+* Perchè garantisce coerenza nel lavoro del team (che viene minata da iniziative individuali
+senza un’obiettivo comune)
+
+46. chi gestisce lo sprint backlog?
+* La gestione è di esclusiva pertinenza del Team di
+Sviluppo
+
+47. cos'è una scrum board ed esempio?
+Una Scrum Board è uno strumento che aiuta il team a rendere visibili gli item dello Sprint
+Backlog
 
 
 
