@@ -314,7 +314,7 @@ Sviluppo
 * Una Scrum Board è uno strumento che aiuta il team a rendere visibili gli item dello Sprint
 Backlog
 
-![scrum board](/home/andre/Escritorio/domande_esame/img/47_scrum_board.png)
+![scrum board](./img/47_scrum_board.png)
 
 
 
