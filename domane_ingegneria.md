@@ -311,8 +311,10 @@ senza un’obiettivo comune)
 Sviluppo
 
 47. cos'è una scrum board ed esempio?
-Una Scrum Board è uno strumento che aiuta il team a rendere visibili gli item dello Sprint
+* Una Scrum Board è uno strumento che aiuta il team a rendere visibili gli item dello Sprint
 Backlog
+
+![scrum board](/home/andre/Escritorio/domande_esame/img/47_scrum_board.png)
 
 
 
