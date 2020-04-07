@@ -316,6 +316,200 @@ Backlog
 
 ![scrum board](./img/47_scrum_board.png)
 
+48. cos'è uno sprint burn down chart ed esempio?  
+Uno sprint burn down chart è una rappresentazione grafica del lavoro da fare in uno sprint
+nel tempo
+
+49. i valori del manifesto agile
+* Gli individui e le interazioni più che i processi e gli strumenti
+* Il software funzionante più che la documentazione esaustiva
+* La collaborazione col cliente più che la negoziazione dei contratti
+* Rispondere al cambiamento più che seguire un piano  
+Ovvero, fermo restando il valore delle voci a destra, consideriamo più importanti le voci a
+sinistra.
+
+50. chiede i principi e devi dire se sono veri o meno?  
+//COMPLETARE
+* La nostra massima priorità è soddisfare il cliente
+rilasciando software di valore, fin da subito
+e in maniera continua.
+* Accogliamo i cambiamenti nei requisiti,
+anche a stadi avanzati dello sviluppo.
+I processi agili sfruttano il cambiamento
+a favore del vantaggio competitivo del cliente.
+* Consegnamo frequentemente software funzionante,
+con cadenza variabile da un paio di settimane a un paio di mesi,
+preferendo i periodi brevi.
+* Committenti e sviluppatori devono lavorare insieme
+quotidianamente per tutta la durata del progetto.
+* Fondiamo i progetti su individui motivati.
+Diamo loro l'ambiente e il supporto di cui hanno bisogno
+e confidiamo nella loro capacità di portare il lavoro a termine.
+* Una conversazione faccia a faccia
+è il modo più efficiente e più efficace per comunicare
+con il team ed all'interno del team.
+* Il software funzionante è il principale metro di misura di progresso.
+* I processi agili promuovono uno sviluppo sostenibile.
+Gli sponsor, gli sviluppatori e gli utenti dovrebbero essere in grado di mantenere indefinitamente un ritmo costante.
+* La continua attenzione all'eccellenza tecnica
+e alla buona progettazione esaltano l'agilità.
+* La semplicità - l'arte di massimizzare la quantità
+di lavoro non svolto - è essenziale.
+* Le architetture, i requisiti e la progettazione
+migliori emergono da team che si auto-organizzano.
+* A intervalli regolari il team riflette su come
+diventare più efficace, dopodiché regola e adatta
+il proprio comportamento di conseguenza
+
+51. cosa fanno i comandi diff e patch?
+* diff e patch sono due comandi presenti nei sistemi Unix (e quindi anche su Linux) che
+permettono di creare e applicare i files di patch.
+diff confronta 2 files o 2 sottodirectories riportando in output le differenze riscontrate.
+diff viene anche impiegata per generare un file di patch.
+Il comando patch permette di applicare le differenze ad alcuni file, al fine di effettuare
+aggiornamenti da vecchie a nuove versioni.
+
+52. cosa consiste il controllo locale di versione?
+* È una parte della gestione della configurazione del
+software che consente di tenere traccia e controllare le modifiche.
+È utile per un team di sviluppatori che lavorano sullo stesso file.
+
+53. riempire la figura secondo il controllo localizzato versione?
+* Lo sviluppatore ha un db locale (repository) che tiene traccia di tutti le modifiche  
+
+![local computer](./img/53_local_computer.png)
+
+54. Controllo centralizzato di versione?
+* Un unico repository condiviso su un server contenente tutti i file versionati. Gli sviluppatori
+scaricano una copia locale (checkout) dal server al computer locale e registrano (commit) i
+file modificati sul repository
+condiviso nel server. Se c’è un conflitto, chi arriva per ultimo lo risolve (merge).
+
+![central server](./img/54_central_server.png)
+
+55. Controllo distribuito di versione?
+* repository con storia completa di tutte le versioni. Gli sviluppatori copiano un intero
+repository (clone)
+o ne creano uno nuovo (init), lavorano offline sui file della copia locale, registrano (commit) i
+file modificati sul repository locale effettuano il merge su un repository remoto (push) o
+chiedono al proprietario di occuparsi lui del merge (pull).  
+
+![distributed server](./img/55_distributed_server.png)
+
+56. 53-cos'è un commit?  
+* Inserisce nel repository locale le istantenee delle modifiche dei file tracciati che erano
+presenti nella staging area.
+
+57. cos'è un merge?
+* È la fusione di due branch.
+
+58. Comando git merge
+* Fonde il branch specificato, con tutte le modifiche (commit) effettuate su di esso, nel
+branch corrente.
+
+59. quali sono i problemi del controllo di versione e qual'è il problema?
+* Controllo locale di versione: nessun supporto alla collaborazione
+Controllo centralizzato di Versione: branching & merging complicati, specialmente per
+progetti grandi
+Controllo distribuito di versione: curva di apprendimento per via dei molteplici workflow
+
+60. come si crea una repo locale di git cos’è una staging area,working directory cos 'è e come si passa?
+* Creare una repository da zero: git init <nome_repository>
+* Creare una repository copiandola da remoto: git clone <url>
+* Working directory: contiene i file modificati
+* Staging area: contiene i file modificati che si vuole tracciare. Si passa ad essa dalla working
+directory con git add.
+* Con git commit si passano le istantanee al repository locale
+
+61. cosa serve git add?
+* aggiunge le modifiche alla staging area
+
+62. cosa serve git commit
+* Inserisce nel repository locale le istantenee delle modifiche dei file tracciati che erano
+presenti nella staging area.
+
+63. cosa fa git push
+* Aggiorna il server remoto con i cambiamenti locali
+
+64. cosa fa git pull
+* Scarica e unifica i commit remoti nella propria working directory
+
+65. quali sono le linee guida per scrivere bene un commit?
+* Iniziare il messaggio con un breve riassunto delle modifiche. Viene separato dal corpo del
+messaggio seguente da una riga vuota. Il corpo del messaggio deve rispondere alle
+domande: Qual è stata la motivazione del cambiamento? - In che cosa differisce dalla
+precedente implementazione?
+Si usa il tempo imperativo e presente.
+
+66. scrivere un esempio di commento significativo di un commit?
+* Aggiunta la funzione stampaId alla classe Members
+La funzione restituisce il valore del campo ID associato a un membro
+
+67. 64-cos'è un branch?
+* è una linea di sviluppo indipendente
+
+68. a che serve un branch?
+Consente di lavorare contemporaneamente a più versioni di un repository
+
+69. cosa fa git checkout (brach name)?
+* Permette di spostarsi sul branch con il nome specificato
+
+70. cosa fa git branch name?
+* Crea un nuovo branch a partire da quello corrente  
+
+71. cos è un issue in github?
+* Una issue rappresenta una qualsiasi tipologia task: una feature, un bug fix o un
+miglioramento da apportare al progetto
+
+72. elencare i passi del github flow
+* Crea un branch
+* Aggiungi i commit
+* Apri una pull request
+* Discuti e valuta
+* Merge e deploy
+
+73. qual'è la corrispondenza tra branch e issue nel github flow?
+* Viene creato un singolo branch per ogni issue, in modo da poter aprire una pull request
+dopo che le modifiche sono state ultimate
+
+74. a che serve una pull request?
+* Una pull request consente di comunicare agl’altri componenti del gruppo le modifiche
+apportate sulla repository di GitHub.
+
+75. come si fa ad agganciare una pull request all'issue?
+* commentando la pull requesto con #n dove n è il numero della issue
+
+76. cos'è un modello?
+* Un modello è una rappresentazione semplificata della realtà.
+
+77. perchè creare modelli
+* Perché la realtà può essere troppo complessa
+* I modelli aiutano a comprendere e a comunicare
+
+78. cosa di intende per prospettiva concettuale nella modellazione visuale software?
+* Rappresentazione di concetti caratteristici del dominio studiato (**domain model**)
+* È indipendente dal software
+
+79. da un diagramma e dice se è strutturale o comportamentale o quale è
+* Diagramma strutturale (structure diagram)
+* Diagramma delle classi (class diagram)
+* Diagramma dei componenti (component diagram)
+* Diagramma di struttura composita (composite structure diagram)
+* Diagramma di deployment (deployment diagram)
+* Diagramma degli oggetti (object diagram)
+* Diagramma dei package (package diagram)
+* Diagramma comportamentale (behavior diagram)
+* Diagramma delle attività (activity diagram)
+* Diagramma dei casi d’uso (use case diagram)
+* Diagramma di macchina a stati (state machine diagram)
+* Diagramma di interazione (interaction diagram)
+* Diagramma di sequenza (sequence diagram)
+* Diagramma di comunicazione (communication diagram)
+* Diagramma di interazione generale (interaction overview diagram)
+* Diagramma di temporizzazione (timing diagram)
+
+
+
 
 
 
