@@ -2,8 +2,8 @@
 
 ## considerazioni preliminari
 
-1. cosa si intende per software?
-* L’insieme di programmi, procedure, regole e documentazione associata, e i dati (relativi
+1. cosa si intende per software?  
+L’insieme di programmi, procedure, regole e documentazione associata, e i dati (relativi
 all’operatività di un sistema di elaborazione).
 
 2. principali aree applicative software?
@@ -27,8 +27,8 @@ all’operatività di un sistema di elaborazione).
 * Modificabilità
 * Invisibilità
 
-4. conseguenza complessità software?
-* Le entità software sono considerati tra i costrutti più complessi dell’essere umano perchè ha
+4. conseguenza complessità software?  
+Le entità software sono considerati tra i costrutti più complessi dell’essere umano perchè ha
 componenti tutte differenti. Questo porta anche all’ esplosione combinatoriale degli stati.
 La complessità cresce esponenzialmente al crescere della dimensione.
 La conseguenza è che un prodotto software è difficile da comprendere e da controllare.  
@@ -507,6 +507,127 @@ apportate sulla repository di GitHub.
 * Diagramma di comunicazione (communication diagram)
 * Diagramma di interazione generale (interaction overview diagram)
 * Diagramma di temporizzazione (timing diagram)
+
+80. cos'è un requisito?
+* E' una caratteristica o condizione che un sistema è tenuto a rispettare.
+* La formulazione dei requisiti chiarisce il modo in cui i bisogni dei committentidovranno essere soddisfatti dai progettisti.
+* L’insieme dei requisiti delimita lo spazio delle soluzioni ammissibili.
+
+81. cos'è una feature?
+* E’ un requisito funzionale.
+
+82. cosa si intende per requisiti funzionali?
+* Per requisiti funzionali si intendono i requisiti specifici che rappresentano una funzionalità,
+descrivono le interazioni tra il sistema e il suo ambiente indipendentemente dalla sua
+implementazione.
+
+83. cosa si intende per elicitazione dei requisiti?
+Per elicitazione si intende la scoperta dei requisiti, è il processo di acquisizione di
+informazioni sul sistema da sviluppare.
+
+84. perchè è difficile scoprire dei requisiti all'inizio dello sviluppo?  
+**Perché nel mondo ideale:**
+• il committente comunica i requisiti alla partenza del progetto
+• il compito degli analisti è soltanto quello di acquisirli e di comprenderli
+**Mentre nel mondo reale:**
+• la scoperta dei requisiti comporta una serie ripetuta di interazioni e discussioni tra i diretti
+interessati
+• Il committente non è quasi mai in grado di trasmettere agli analisti un elenco di requisiti
+completo e dettagliato. 
+
+85. quali sono le principali tecniche di elicitazione dei requisiti?
+* Interviste (1-1), workshop (M-M)
+* Identificazione degli interlocutori (stackholder)
+* Ruolo attivo degli analisti
+* Risoluzione di punti di vista contraddittori
+* Osservazione diretta dei processi/sistemi esistenti
+* Recupero e analisi documentazione da sistemi esistenti
+* Prototipi UI
+
+86. esempio di requisito specifico in forza di predicato verbale o user story?
+**Esempi di requisiti specifici in forza di predicato verbale:**
+* RF1: Il sistema deve accettare pagamenti con carte di credito
+* RF2: Il sistema deve verificare l’identità dell’utente mediante tessera
+* RNF1: Il sistema deve essere disponibile 7 giorni su 7, 24 ore su 24
+* RNF2: Il sistema deve rispondere a ogni comando dell’utente entro 4 sec
+**Esempi di requisiti specifici in forza di user story**:
+* Effettua registrazione, effettua ordine, controlla lo stato dell’ordine
+
+87. cos'è un caso d'uso?
+* Rappresentano una funzionalità (feature) che il sistema offre ai suoi utilizzatori (attori), è la
+narrazione delle interazioni tipiche tra attori e sistema.
+
+89. cosa si intende per attore?
+* Per attore si intende il ruolo che qualcuno o qualcosa svolge nell’interagire con il sistema.
+* E’ esterno al sistema
+* tutti i casi d’uso invece rientrano nel contesto del sistema
+* Può essere:
+* una classe di persone fisiche (es. fornitore)
+* un altro sistema (es. sistema di contabilità)
+* un dispositivo hardware esterno (es. sensore o attuatore)
+
+90. cosa si intende per scenario?
+* Per scenario si intende il dialogo tra gli attori e il sistema.
+Uno scenario definisce cosa accade nel sistema in seguito all’evento di innesco
+* come e quando il caso d’uso inizia
+* chi inizia il caso d’uso
+* interazione tra attore/i e caso d’uso e cosa viene scambiato
+* come e quando c'è bisogno di dati memorizzati o di memorizzare dati
+* come e quando il caso d’uso termina
+
+91. se i requisiti sono validati o verificati?
+* Obiettivo: assicurarsi che la specifica dei requisiti del software rappresenti in modo
+accurato e chiaro i bisogni del committente
+* Revisioni mediante ispezione
+    * Basate su lettura individuale e discussione in gruppo
+    * Utilizzo di checklist
+        * Difetti classificati
+        * Omissione
+        * Informazione ambigua
+        * Inconsistenza
+        * Fatto non corretto
+        * Informazione estranea
+
+92. cosa si intende per tracciabilità in avanti nei requisiti o a ritroso?
+Tracciabilità in avanti
+* E’ possibile nei documenti di progetto, codifica, testing e manutenzione fare riferimento a
+specifici requisiti;
+Tracciabilità a ritroso
+* Riferimento a leggi, regolamenti, software esistente
+
+93. cosa si intende per gestione?
+Per gestione si intende le procedure per far sì che:
+* solo le persone autorizzate possano effettuare cambiamenti
+* non sia possibile effettuare cambiamenti in modo concorrente
+* si tenga traccia dei cambiamenti in modo tale poter tornare indietro
+* si tenga traccia di chi ha effettuato il cambiamento e delle motivazioni
+
+94. esempi user story?
+In qualità di cliente occasionale, voglio visualizzare le foto dell'albergo selezionato in modo
+tale da decidere se effettuare la prenotazione.
+
+![user story](./img/94_user_story.png)
+
+95. cos'è un epic
+* E’ Una user story da decomporre perché troppo grande per essere implementata in una sola
+iterazione.
+
+96. cos' è un modello di dominio?
+* E’ un modello utile per comprendere e comunicare i concetti fondamentali di un dominio
+(ambito)
+    * E’ indipendente dal software
+    * Anche detto “modello concettuale”
+* Base di partenza per il design della «business logic»
+
+97. cos'è un modello concettuale?
+* E’ il modello di dominio utile per comprendere e comunicare i concetti fondamentali di un
+dominio (ambito).
+
+98. cosa si utilizza per rappresentare un modello di dominio?
+* Si utilizza un diagramma delle classi con prospettiva concettuale
+    * Rappresentazione visuale di concetti caratteristici del dominio studiato
+
+
 
 
 
