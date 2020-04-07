@@ -45,21 +45,21 @@ degrada la qualità iniziale del software
 
 7. conseguenza invisibilità?
 Il software è un’entità invisibile e non può essere catturato completamente da un’unica
-rappresentazione geometrica(
+rappresentazione geometrica, di conseguenza ci sono problemi di comunicazione.
 * flusso di controllo
 * flusso dei dati
 * dipendenze delle variabili
-* sequenze temporali).
-Di conseguenza ci sono problemi di comunicazione.
+* sequenze temporali
+
 
 8. quando e da chi perchè è stato coniato ingegneria dei software?
-Durante un convegno NATO nel 1968 in risposta alla “crisi del software” (
+Durante un convegno NATO nel 1968 in risposta alla “crisi del software” 
 * Progetti in ritardo
 * Progetti che sfondano i costi preventivati
 * Sistemi non all’altezza dell’affidabilità richiesta
 
 9. cosa si intende per ingegneria del software?
-* La disciplina tecnologica e manageriale che riguarda la produzione sistematica e la
+La disciplina tecnologica e manageriale che riguarda la produzione sistematica e la
 manutenzione dei prodotti software che vengono sviluppati e modificati entro i costi e i
 tempi preventivati, e con qualità accettabile
 
@@ -77,18 +77,18 @@ Aggiungere persone a un progetto già in ritardo ha un effetto contrario alle in
 * Addestramento
 * Comunicazione intragruppo n(n-1)/2
 
-13. cosa si intende per qualità del software?
+13. cosa si intende per qualità del software?  
 Per misurare la qualità del software ci si affida a un modello di qualità che
 prevede la decomposizione del concetto in attributi fino ad arrivare a misure. I
 parametri a cui si fa riferimento sono funzionalità, affidabilità, efficienza,
 usabilità, manutenibilità, portabilità
 
-14. perchè sono importanti i processi software?
+14. perchè sono importanti i processi software?  
 Visto che un processo software descrive quali sono le attività che concorrono a sviluppare
 un prodotto software e come le attività sono collegate tra loro, la qualità del software
 dipende proprio dalla qualita del processo software.
 
-15. cosa sono i processi software?
+15. cosa sono i processi software?  
 che un processo software descrive quali sono le attività che concorrono a sviluppare un
 prodotto software e come le attività sono collegate tra loro
 
@@ -108,16 +108,15 @@ prodotto software e come le attività sono collegate tra loro
 
 17. cosa caratterizza lo stile di processo a cascata?
 * Suddivide il progetto in base alle attività tecniche
-* Le fasi coincidono con le attività
-* Si passa a una fase successiva solo se si completa l’attività e * si supera il punto di
-**controllo –**
-*Tornare indietro è possibile ma come eccezione
+    * Le fasi coincidono con le attività
+* Si passa a una fase successiva solo se si completa l’attività e * si supera il punto di controllo 
+    * Tornare indietro è possibile ma come eccezione
 **Problemi**
 * Rischio elevato: difficile stabilire che tutto procede veramente bene
 * Difficile da applicare se i requisiti sono poco noti o volatili
 * Time to market ritardato
 
-18. cos' è il time boxing?
+18. cos' è il time boxing?  
 * In generale prevede di snellire il processo dedicando ad ogni operazione che lo costituisce
 degli slot di tempo ben definiti
 
@@ -169,19 +168,19 @@ il proprio comportamento di conseguenza
 * Extreme Programming (XP) esprime 12 regole o pratiche per lo
 sviluppo software (Pair Programming, Planning Game, Test Driven
 Development, Whole Team...)
-**Scrum:**
+* Scrum:
 prevede di dividere il progetto in blocchi rapidi di lavoro (Sprint) alla fine di
 ciascuno dei quali creare un incremento del software. Esso indica come definire i
 dettagli del lavoro da fare nell'immediato futuro e prevede vari meeting con
 caratteristiche precise per creare occasioni di ispezione e controllo del lavoro
 svolto.
-**Kanban:**
+* Kanban:
 Descritto in 5 proprietà:
-* Visualizzare il flusso di lavoro
-* Limitare il Work-in-Process
-* Misurare e gestire il flusso
-* Rendere le politiche di processo esplicite
-* Utilizzare i modelli per riconoscere le opportunità di miglioramento
+    * Visualizzare il flusso di lavoro
+    * Limitare il Work-in-Process
+    * Misurare e gestire il flusso
+    * Rendere le politiche di processo esplicite
+    * Utilizzare i modelli per riconoscere le opportunità di miglioramento
 
 22. citare almeno 3 pratiche dell' extreme programming //DA RIVEDERE?
 * Pair programming
@@ -197,15 +196,15 @@ Il cliente non è colui che paga il conto , ma la persona che realmente utilizza
 sistema. Il cliente deve essere presente e disponibile a verificare.
 
 23. cos'è una kanban board?
-* è lo strumento utilizzato nella metodologia di sviluppo software Kanban.
+è lo strumento utilizzato nella metodologia di sviluppo software Kanban.
 Possiede diverse colonne tra cui le principali sono To do, In progress, Review e Done.
 
 24. cos'è il work in progress(WIP)?
-* È il numero di attività che su cui un team sta lavorando. Una delle principali proprietà del
+È il numero di attività che su cui un team sta lavorando. Una delle principali proprietà del
 Kanban è limitare il WIP.
 
 25. cos’è una valutazione retrospettiva?
-* La retrospettiva è un incontro che si tiene alla fine di un’iterazione di sviluppo Agile.
+La retrospettiva è un incontro che si tiene alla fine di un’iterazione di sviluppo Agile.
 Durante la retrospettiva, il team riflette su quanto accaduto durante l’iterazione appena
 trascorsa e individua le azioni per migliorare il futuro. Si individuano:
 Cose da tenere
@@ -216,22 +215,22 @@ Cose da provare
 cambiamenti che potrebbero migliorare il processo
 
 26. cos è un analisi post mortem?
-* Le revisioni post mortem si concentrano sull'estrazione di lezioni dal team di sviluppo una
+Le revisioni post mortem si concentrano sull'estrazione di lezioni dal team di sviluppo una
 volta che il
 il software viene consegnato. Le revisioni post mortem devono essere condotte poco dopo
 la fine del
 progetto in modo che le informazioni non vengono perdute a causa del progetto successivo
 
 27. cos'è uno sprint?
-* È un iterzione durante la quale i progetti scrum fanno progressi. Durante questa fase il
+È un iterzione durante la quale i progetti scrum fanno progressi. Durante questa fase il
 prodotto viene progettato, realizzato e testato.
 
 28. quanto dura uno sprint in scrum?
-* La durata tipica è in genere di 2-4 settimane o un
+La durata tipica è in genere di 2-4 settimane o un
 mese di calendario
 
 29. quali sono i vataggi o svantaggi di uno sprint breve o lungo?
-* Una durata costante permette una migliore cadenza
+Una durata costante permette una migliore cadenza
 
 30. se è possibile chiedere al team di aggiugere requisiti e perchè?
 * Durante uno Sprint non sono accettate richieste di
@@ -250,16 +249,16 @@ feature e le priorità a ogni iterazione).
 * Accetta o rifiuta i risultati del lavoro del Team di Sviluppo
 
 33. cosa fa il master(o ScrumMaster)?
-* È una guida al servizio del Team di Sviluppo e del Product Owner. Aiuta a creare e a
+È una guida al servizio del Team di Sviluppo e del Product Owner. Aiuta a creare e a
 modificare gli elementi del product Backlog, facilita gli eventi scrum e mostra le informazioni
 chiave per il processo di sviluppo
 
 34. quante persone possono stare in un team e perchè?
-* Un team dovrebbe avere da 3 a 8 persone per la regola delle 2 pizze : per sfamare un team
+Un team dovrebbe avere da 3 a 8 persone per la regola delle 2 pizze : per sfamare un team
 dovrebbero essere necessarie non più di due pizze.
 
 35. cosa si intende per autogestione in uno sprint?
-* Nessuno (neanche lo Scrum Master) dice al Team di Sviluppo come
+Nessuno (neanche lo Scrum Master) dice al Team di Sviluppo come
 trasformare il Product Backlog in Incrementi di prodotto potenzialmente rilasciabili
 
 36. cosa si fa in uno sprint planning?
@@ -269,28 +268,28 @@ trasformare il Product Backlog in Incrementi di prodotto potenzialmente rilascia
 * Creazione dello Sprint Backlog(identificazione dei task e stima)
 
 37. cos' è uno sprint backlog?
-* Una lista di tutto il lavoro richiesto sul progetto, è l’unica fonte di requisiti per le modifiche
+Una lista di tutto il lavoro richiesto sul progetto, è l’unica fonte di requisiti per le modifiche
 da apportare al prodotto. Le priorità sono stabilite dal Product Owner e le stime degli item
 pronti per uno Sprint sono stabilite dal Team di Sviluppo.
 
 38. cosa si fa nei Daily scrum meeting (o semplicemente meeting) quanto dura e perchè si
 sta in piedi?
-* Nel Daily scrum meeting tutti i componenti devono rispondere alle seguenti domande: Cosa
+Nel Daily scrum meeting tutti i componenti devono rispondere alle seguenti domande: Cosa
 hai fatto ieri?;
 Cosa farai oggi?; Ci sono problemi nella prosecuzione del lavoro?
 La sua durata è di 15 minuti e si rimane in piedi per evitare che si prolunghi inutilmente.
 
 39. chi partecipa allo sprint review?
-* Allo sprint review partecipano tutto il team ed eventuali esterni sono benvenuti.
+Allo sprint review partecipano tutto il team ed eventuali esterni sono benvenuti.
 
 40. quando si fanno le stime e chi le fa nello sviluppo agile?
-* Le stime degli item sono fatte all’inizio di ogni Sprint dal Team di sviluppo
+Le stime degli item sono fatte all’inizio di ogni Sprint dal Team di sviluppo
 
 41. come vengono espressi i requisiti funzionali?
-* I requisiti funzionali sono espressi mediante le user stories
+I requisiti funzionali sono espressi mediante le user stories
 
 42. come viene espressa una user story?
-* Le user stories sono espresse mediante un Template:
+Le user stories sono espresse mediante un Template:
 In qualità di <ruolo utente>,
 voglio <obiettivo>
 [in modo tale da <motivo>]
@@ -299,19 +298,19 @@ voglio <obiettivo>
 * //PENDENTE...
 
 44. se una user story viene specificata nel product backlog o nello sprint backlog?
-* Le user story sono inserite nel product backlog. Nello sprint backlog sono inserite le user
+Le user story sono inserite nel product backlog. Nello sprint backlog sono inserite le user
 story per uno sprint.
 
 45. perchè è importante un obiettivo in uno sprint?
-* Perchè garantisce coerenza nel lavoro del team (che viene minata da iniziative individuali
+Perchè garantisce coerenza nel lavoro del team (che viene minata da iniziative individuali
 senza un’obiettivo comune)
 
 46. chi gestisce lo sprint backlog?
-* La gestione è di esclusiva pertinenza del Team di
+La gestione è di esclusiva pertinenza del Team di
 Sviluppo
 
 47. cos'è una scrum board ed esempio?
-* Una Scrum Board è uno strumento che aiuta il team a rendere visibili gli item dello Sprint
+Una Scrum Board è uno strumento che aiuta il team a rendere visibili gli item dello Sprint
 Backlog
 
 ![scrum board](./img/47_scrum_board.png)
@@ -362,7 +361,7 @@ diventare più efficace, dopodiché regola e adatta
 il proprio comportamento di conseguenza
 
 51. cosa fanno i comandi diff e patch?
-* diff e patch sono due comandi presenti nei sistemi Unix (e quindi anche su Linux) che
+diff e patch sono due comandi presenti nei sistemi Unix (e quindi anche su Linux) che
 permettono di creare e applicare i files di patch.
 diff confronta 2 files o 2 sottodirectories riportando in output le differenze riscontrate.
 diff viene anche impiegata per generare un file di patch.
@@ -370,17 +369,17 @@ Il comando patch permette di applicare le differenze ad alcuni file, al fine di 
 aggiornamenti da vecchie a nuove versioni.
 
 52. cosa consiste il controllo locale di versione?
-* È una parte della gestione della configurazione del
+È una parte della gestione della configurazione del
 software che consente di tenere traccia e controllare le modifiche.
 È utile per un team di sviluppatori che lavorano sullo stesso file.
 
 53. riempire la figura secondo il controllo localizzato versione?
-* Lo sviluppatore ha un db locale (repository) che tiene traccia di tutti le modifiche  
+Lo sviluppatore ha un db locale (repository) che tiene traccia di tutti le modifiche  
 
 ![local computer](./img/53_local_computer.png)
 
 54. Controllo centralizzato di versione?
-* Un unico repository condiviso su un server contenente tutti i file versionati. Gli sviluppatori
+Un unico repository condiviso su un server contenente tutti i file versionati. Gli sviluppatori
 scaricano una copia locale (checkout) dal server al computer locale e registrano (commit) i
 file modificati sul repository
 condiviso nel server. Se c’è un conflitto, chi arriva per ultimo lo risolve (merge).
@@ -388,7 +387,7 @@ condiviso nel server. Se c’è un conflitto, chi arriva per ultimo lo risolve (
 ![central server](./img/54_central_server.png)
 
 55. Controllo distribuito di versione?
-* repository con storia completa di tutte le versioni. Gli sviluppatori copiano un intero
+repository con storia completa di tutte le versioni. Gli sviluppatori copiano un intero
 repository (clone)
 o ne creano uno nuovo (init), lavorano offline sui file della copia locale, registrano (commit) i
 file modificati sul repository locale effettuano il merge su un repository remoto (push) o
@@ -397,18 +396,18 @@ chiedono al proprietario di occuparsi lui del merge (pull).
 ![distributed server](./img/55_distributed_server.png)
 
 56. 53-cos'è un commit?  
-* Inserisce nel repository locale le istantenee delle modifiche dei file tracciati che erano
+Inserisce nel repository locale le istantenee delle modifiche dei file tracciati che erano
 presenti nella staging area.
 
 57. cos'è un merge?
-* È la fusione di due branch.
+È la fusione di due branch.
 
 58. Comando git merge
-* Fonde il branch specificato, con tutte le modifiche (commit) effettuate su di esso, nel
+Fonde il branch specificato, con tutte le modifiche (commit) effettuate su di esso, nel
 branch corrente.
 
 59. quali sono i problemi del controllo di versione e qual'è il problema?
-* Controllo locale di versione: nessun supporto alla collaborazione
+Controllo locale di versione: nessun supporto alla collaborazione
 Controllo centralizzato di Versione: branching & merging complicati, specialmente per
 progetti grandi
 Controllo distribuito di versione: curva di apprendimento per via dei molteplici workflow
@@ -422,43 +421,43 @@ directory con git add.
 * Con git commit si passano le istantanee al repository locale
 
 61. cosa serve git add?
-* aggiunge le modifiche alla staging area
+aggiunge le modifiche alla staging area
 
 62. cosa serve git commit
-* Inserisce nel repository locale le istantenee delle modifiche dei file tracciati che erano
+Inserisce nel repository locale le istantenee delle modifiche dei file tracciati che erano
 presenti nella staging area.
 
 63. cosa fa git push
-* Aggiorna il server remoto con i cambiamenti locali
+Aggiorna il server remoto con i cambiamenti locali
 
 64. cosa fa git pull
-* Scarica e unifica i commit remoti nella propria working directory
+Scarica e unifica i commit remoti nella propria working directory
 
 65. quali sono le linee guida per scrivere bene un commit?
-* Iniziare il messaggio con un breve riassunto delle modifiche. Viene separato dal corpo del
+Iniziare il messaggio con un breve riassunto delle modifiche. Viene separato dal corpo del
 messaggio seguente da una riga vuota. Il corpo del messaggio deve rispondere alle
 domande: Qual è stata la motivazione del cambiamento? - In che cosa differisce dalla
 precedente implementazione?
 Si usa il tempo imperativo e presente.
 
 66. scrivere un esempio di commento significativo di un commit?
-* Aggiunta la funzione stampaId alla classe Members
+Aggiunta la funzione stampaId alla classe Members
 La funzione restituisce il valore del campo ID associato a un membro
 
 67. 64-cos'è un branch?
-* è una linea di sviluppo indipendente
+è una linea di sviluppo indipendente
 
 68. a che serve un branch?
 Consente di lavorare contemporaneamente a più versioni di un repository
 
 69. cosa fa git checkout (brach name)?
-* Permette di spostarsi sul branch con il nome specificato
+Permette di spostarsi sul branch con il nome specificato
 
 70. cosa fa git branch name?
-* Crea un nuovo branch a partire da quello corrente  
+Crea un nuovo branch a partire da quello corrente  
 
 71. cos è un issue in github?
-* Una issue rappresenta una qualsiasi tipologia task: una feature, un bug fix o un
+Una issue rappresenta una qualsiasi tipologia task: una feature, un bug fix o un
 miglioramento da apportare al progetto
 
 72. elencare i passi del github flow
@@ -469,27 +468,44 @@ miglioramento da apportare al progetto
 * Merge e deploy
 
 73. qual'è la corrispondenza tra branch e issue nel github flow?
-* Viene creato un singolo branch per ogni issue, in modo da poter aprire una pull request
+Viene creato un singolo branch per ogni issue, in modo da poter aprire una pull request
 dopo che le modifiche sono state ultimate
 
 74. a che serve una pull request?
-* Una pull request consente di comunicare agl’altri componenti del gruppo le modifiche
+Una pull request consente di comunicare agl’altri componenti del gruppo le modifiche
 apportate sulla repository di GitHub.
 
 75. come si fa ad agganciare una pull request all'issue?
-* commentando la pull requesto con #n dove n è il numero della issue
+commentando la pull requesto con #n dove n è il numero della issue
 
 76. cos'è un modello?
-* Un modello è una rappresentazione semplificata della realtà.
+Un modello è una rappresentazione semplificata della realtà.
 
 77. perchè creare modelli
 * Perché la realtà può essere troppo complessa
 * I modelli aiutano a comprendere e a comunicare
 
-78. cosa di intende per prospettiva concettuale nella modellazione visuale software?
+78. cosa si intende per prospettiva concettuale nella modellazione visuale software?
 * Rappresentazione di concetti caratteristici del dominio studiato (**domain model**)
 * È indipendente dal software
 
+79. qual'è la differenza per creare bozze (da rivedere)?  
+* Lo scopo principale è favorire la comprensione e la comunicazione nelle discussioni
+* Usato per aiutare a concentrarsi su alcuni aspetti di un sistema software
+* I diagrammi sono creati improvvisando e in modo collaborativo (anche con uso di lavagne)
+
+80. quali sono i criteri fondamentali
+* Criteri fondamentali
+    * Selettività
+        * Solo alcuni aspetti del sistema software sono modellati graficamente
+        * Qualsiasi informazione può essere soppressa: l’assenza di qualcosa non significa che
+non esista
+* Espressività
+    * Diagrammi intesi come figure
+
+
+
+//corregir la numeracion desde aqui
 79. da un diagramma e dice se è strutturale o comportamentale o quale è
 * Diagramma strutturale (structure diagram)
 * Diagramma delle classi (class diagram)
