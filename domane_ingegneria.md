@@ -33,51 +33,51 @@ componenti tutte differenti. Questo porta anche all’ esplosione combinatoriale
 La complessità cresce esponenzialmente al crescere della dimensione.
 La conseguenza è che un prodotto software è difficile da comprendere e da controllare.  
 
-5. cosa si intende per conformita?
+5. cosa si intende per conformita?  
 Il software è un prodotto dell’uomo: non esistono leggi naturali unificanti
 Il software si deve adattare all’ambiente esterno per via delle molte interfacce hardware,
-di più utenti con profili differenti , e dei processi lavorativi predefiniti
+di più utenti con profili differenti, e dei processi lavorativi predefiniti
 La conformità forzata aggiunge maggiore complessità
 
-6. effetto cambiamento continuo software?
+6. effetto cambiamento continuo software?  
 C’è sempre pressione per il cambiamento del software tuttavia il cambiamento continuo
 degrada la qualità iniziale del software
 
-7. conseguenza invisibilità?
+7. conseguenza invisibilità?  
 Il software è un’entità invisibile e non può essere catturato completamente da un’unica
 rappresentazione geometrica, di conseguenza ci sono problemi di comunicazione.
-* flusso di controllo
-* flusso dei dati
-* dipendenze delle variabili
-* sequenze temporali
+    * flusso di controllo
+    * flusso dei dati
+    * dipendenze delle variabili
+    * sequenze temporali
 
 
-8. quando e da chi perchè è stato coniato ingegneria dei software?
+8. quando e da chi perchè è stato coniato ingegneria dei software?  
 Durante un convegno NATO nel 1968 in risposta alla “crisi del software” 
-* Progetti in ritardo
-* Progetti che sfondano i costi preventivati
-* Sistemi non all’altezza dell’affidabilità richiesta
+    * Progetti in ritardo
+    * Progetti che sfondano i costi preventivati
+    * Sistemi non all’altezza dell’affidabilità richiesta
 
-9. cosa si intende per ingegneria del software?
+9. cosa si intende per ingegneria del software?  
 La disciplina tecnologica e manageriale che riguarda la produzione sistematica e la
 manutenzione dei prodotti software che vengono sviluppati e modificati entro i costi e i
 tempi preventivati, e con qualità accettabile
 
-10. differenza fra costo software e costo hardware?
+10. differenza fra costo software e costo hardware?  
 Il costo del software è un costo di progetto non di produzione, ed è principalmente un costo
 di sforzo (umano).
 
-11. come si misura il costo del software e cosa si intende su time to market?
+11. come si misura il costo del software e cosa si intende su time to market?  
 Il costo del software è principalmente un costo di sforzo umano ed è misurato in [ ore |
 giorni | mesi | anni ] – persona. Il ‘’time to market’’ è il tempo che intercorre dall’idea
 iniziale al rilascio del prodotto (è un fattore critico per molti progetti).
 
-12. cos'è la legge di brooks?
+12. cos'è la legge di brooks?  
 Aggiungere persone a un progetto già in ritardo ha un effetto contrario alle intenzioni:
 * Addestramento
 * Comunicazione intragruppo n(n-1)/2
 
-13. cosa si intende per qualità del software?  
+13. cosa si intende per qualità del software?   
 Per misurare la qualità del software ci si affida a un modello di qualità che
 prevede la decomposizione del concetto in attributi fino ad arrivare a misure. I
 parametri a cui si fa riferimento sono funzionalità, affidabilità, efficienza,
@@ -92,29 +92,31 @@ dipende proprio dalla qualita del processo software.
 che un processo software descrive quali sono le attività che concorrono a sviluppare un
 prodotto software e come le attività sono collegate tra loro
 
-16-principali attività tecniche o organizzative?
-**Attività tecniche**
-* Analisi dei requisiti (requirements analysis)
-* Progettazione (design)
-* Realizzazione (implementation)
-* Collaudo (testing)
-* Messa in esercizio (deployment)
-* Conduzione operativa (operation)
-* Manutenzione (maintenance)
-**Attività organizzative**
-* Gestione del progetto (project management)
-* Gestione della configurazione (configuration management)
-* Assicurazione della qualità (quality assurance)
+16. principali attività tecniche o organizzative?  
+    **Attività tecniche:**
+    * Analisi dei requisiti (requirements analysis)
+    * Progettazione (design)
+    * Realizzazione (implementation)
+    * Collaudo (testing)
+    * Messa in esercizio (deployment)
+    * Conduzione operativa (operation)
+    * Manutenzione (maintenance)  
+
+    **Attività organizzative:**
+    * Gestione del progetto (project management)
+    * Gestione della configurazione (configuration management)
+    * Assicurazione della qualità (quality assurance)
 
 17. cosa caratterizza lo stile di processo a cascata?
-* Suddivide il progetto in base alle attività tecniche
-    * Le fasi coincidono con le attività
-* Si passa a una fase successiva solo se si completa l’attività e * si supera il punto di controllo 
-    * Tornare indietro è possibile ma come eccezione
-**Problemi**
-* Rischio elevato: difficile stabilire che tutto procede veramente bene
-* Difficile da applicare se i requisiti sono poco noti o volatili
-* Time to market ritardato
+    * Suddivide il progetto in base alle attività tecniche
+        * Le fasi coincidono con le attività
+    * Si passa a una fase successiva solo se si completa l’attività e * si supera il punto di controllo 
+        * Tornare indietro è possibile ma come eccezione  
+
+    **Problemi**
+    * Rischio elevato: difficile stabilire che tutto procede veramente bene
+    * Difficile da applicare se i requisiti sono poco noti o volatili
+    * Time to market ritardato
 
 18. cos' è il time boxing?  
 * In generale prevede di snellire il processo dedicando ad ogni operazione che lo costituisce
